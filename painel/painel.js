@@ -34,6 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     logoutButton.addEventListener('click', function() {
-        window.location.href = 'index.html';
+        window.location.href = '/login/index.html';
     });
 });
