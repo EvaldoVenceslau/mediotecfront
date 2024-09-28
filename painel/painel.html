@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lateral com Conteúdo e Links Externos</title>
+    <link rel="stylesheet" href="/painel/painel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="/img/mediotec_logo.png" alt="Logo Mediotec">
+            <ul>
+                <li><a href="#" data-section="dashboard">Dashboard</a></li>
+                <li><a href="/cad_aluno/cad_aluno.html" data-section="aluno">Cadastro de Aluno</a></li>
+                <li><a href="/cad_prof/cad_prof.html" data-section="professor">Cadastro de Professor</a></li>
+                <li><a href="/academico/academico.html" data-section="turmas">Cadastro de Turmas</a></li>
+                <li><a href="/calendario/calendario.html" data-section="calendario">Calendário</a></li>
+                <li><a href="/financeiro/financeiro.html" id="financeiro-link">Financeiro</a></li>
+                <li><a href="/mensagem/mensagem.html" id="mensagem-link">Mensagens</a></li>
+                <li><a href="/presença/presenca.html" id="presenca-link">Presença</a></li>
+                <li><a href="/usuarios/usuarios.html" id="usuario-link">Usuários</a></li>
+            </ul>
+            <button id="logout">Sair</button>
+        </aside>
+        
+        <main class="main-content">
+            <div id="content-area">Selecione uma opção no menu para visualizar o conteúdo.</div>
+        </main>
+    </div>
+
+    <script src="/painel/painel.js"></script>
+</body>
+</html>
