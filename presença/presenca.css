@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background-color: #f0f0f0;
@@ -32,6 +36,7 @@ input, select, button {
     border-radius: 5px;
     border: 1px solid #ddd;
     font-size: 16px;
+    transition: border-color 0.3s ease;
 }
 
 input:focus, select:focus {
@@ -78,6 +83,7 @@ ul li:hover {
 
     input, select, button {
         font-size: 14px;
+        padding: 8px;
     }
 }
 
@@ -88,5 +94,6 @@ ul li:hover {
 
     input, select, button {
         font-size: 12px;
+        padding: 6px;
     }
 }
