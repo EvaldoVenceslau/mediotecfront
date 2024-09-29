@@ -1,21 +1,32 @@
 {
-    "name": "Mediotec",
-    "short_name": "App",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#f4f4f9",
-    "theme_color": "#DF2F80",
-    "icons": [
-      {
-        "src": "/img/icon-192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "/img/icon-512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  }
-  
+  "name": "Mediotec",
+  "short_name": "App",
+  "start_url": "/login/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#DF2F80",
+  "icons": [
+    {
+      "src": "/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/img/screenshot1.png",
+      "type": "image/png",
+      "sizes": "1280x720"
+    },
+    {
+      "src": "/img/screenshot2.png",
+      "type": "image/png",
+      "sizes": "720x1280"
+    }
+  ]
+}
